@@ -1,0 +1,17 @@
+This project presents an algorithm designed to solve sets in the popular card game SET.
+The algorithm processes a given set of cards on the board and efficiently
+identifies all possible sets using a combination of steady
+sorting algorithms, searching techniques, and Java lambdas.
+The goal of the algorithm is to demonstrate a practical application of
+sorting and searching methods, while leveraging the power of functional
+programming to handle the complexity of set detection. It aims to provide a
+clear and efficient solution to the task of finding sets on the board.
+
+I used Lambada to display steady algorithm sorting, every time the cards
+list sorted by different parameter. I used 3-sum algorithm to find every triple cards
+that can be a set. And sorted them by every parameter of the cards (known
+in my project as type, color, number and fill).
+
+In that edition the SetFindAlgo main method input is 4 digits numbers
+that represent cards, every digit is 1,2 or 3 because every parameter have
+three options.

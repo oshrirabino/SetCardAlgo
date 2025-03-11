@@ -22,14 +22,7 @@ public class SetFindAlgo {
                 return;
             }
         }
-//        cards.add(c4);
-//        cards.add(c2);
-//        cards.add(c3);
-//        cards.add(c1);
-//        cards.add(c6);
-//        cards.add(c5);
-//        cards.add(c7);
-//        cards.add(c8);
+
         findSet(cards);
     }
     static private void findSet(Set<SetCard> board) {
